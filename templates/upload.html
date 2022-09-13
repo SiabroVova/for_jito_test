@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: grid;
+        place-content: center;
+        min-height: 100vh;
+}
+    </style>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>UPLOAD</title>
+</head>
+   <body>
+          <form action = "http://localhost:5000/uploader" method = "POST" enctype = "multipart/form-data">
+              <input type = "file" name = "file"/>
+              <input type = "submit" value="Start"/>
+      </form>
+   </body>
+</html>

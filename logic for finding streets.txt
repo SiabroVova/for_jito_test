@@ -1,0 +1,5 @@
+To find in several lines the one street I decide the next algorithm:
+    - First of all need to find the end of line and start move by it till the end:
+        - if you meet the crossroad - need to move just forward, without turns
+        - if single turn - then we turn street turn too
+        - if you meet the T-type crossroad it is end of your street
